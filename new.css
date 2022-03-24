@@ -60,6 +60,10 @@ body {
     margin: auto;
 
 }
+.main-content > h1 {
+    text-align: center;
+}
+
 .main-content .card{
     margin-right: 50px;
     padding: 30px;
