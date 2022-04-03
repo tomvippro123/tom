@@ -9,6 +9,8 @@ html {
 
 body {
     font-family: 'Bitter', serif;
+    margin: 0;
+    overflow-x: hidden;
 }
 
 .row::after {
@@ -30,14 +32,13 @@ body {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    padding-left: 5%;
     overflow: hidden;
     background-color: #333;
-
 }
 
 .menu ul li {
     float: left;
-    margin-left: 2%;
 }
 
 .menu ul li a {
@@ -220,7 +221,6 @@ body {
 
     .menu ul li {
         float: left;
-        margin-left: 5%;
     }
 
     .menu ul input[type=text] {
