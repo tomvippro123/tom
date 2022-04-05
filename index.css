@@ -2,7 +2,7 @@
     box-sizing : border-box;
 }
 
-body {
+html, body {
     font-family: 'Bitter', serif;
     margin: 0;
     overflow-x: hidden;
